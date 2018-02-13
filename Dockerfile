@@ -5,7 +5,7 @@ MAINTAINER zhang.zhoujian (zhang.zhoujian@zhangzhoujian.com)
 RUN pip install flask
 
 # Exposing webservice port
-EXPOSE 8001
+EXPOSE 80
 
 # Add the PYthon script
 ADD webservice.py /sample_ws/webservice.py
