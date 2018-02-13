@@ -1,11 +1,8 @@
 # Let's start with a sample ubuntu image
-FROM ubuntu:16.04
+FROM python:2.7.14-alpine3.7
 MAINTAINER zhang.zhoujian (zhang.zhoujian@zhangzhoujian.com)
 
-# Install dependencies
-RUN apt-get update && \
-    apt-get install -y python2.7 python-pip && \
-    pip install flask
+RUN pip install flask
 
 # Exposing webservice port
 EXPOSE 8001
