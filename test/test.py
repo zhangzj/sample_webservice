@@ -1,6 +1,6 @@
 import requests
 
-ws_address = "http://127.0.0.1:5000"
+ws_address = "http://127.0.0.1:8001"
 # test GET
 r = requests.get(ws_address)
 print r.status_code, r.text

@@ -8,7 +8,7 @@ RUN apt-get update && \
     pip install flask
 
 # Exposing webservice port
-EXPOSE 5000
+EXPOSE 8001
 
 # Add the PYthon script
 ADD webservice.py /sample_ws/webservice.py
