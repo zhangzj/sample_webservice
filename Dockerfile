@@ -1,6 +1,6 @@
 # Let's start with a sample ubuntu image
-FROM ubuntu:vivid
-MAINTAINER Balint Kubik (kubikb@starschema.net)
+FROM ubuntu:16.04
+MAINTAINER zhang.zhoujian (zhang.zhoujian@zhangzhoujian.com)
 
 # Install dependencies
 RUN apt-get update && \
